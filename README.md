@@ -142,7 +142,7 @@ The program's objective is to represent a Black Jack casino game using a single 
 
 ***•	Lack of Betting Strategy:*** The game doesn't include betting strategies like doubling bets after wins or losses, which are common in blackjack.
 
-***•	Fixed Dealer Strategy: The dealer has a fixed strategy to hit below 17. Human dealers may follow different strategies based on casino rules or circumstances.
+***•	Fixed Dealer Strategy:*** The dealer has a fixed strategy to hit below 17. Human dealers may follow different strategies based on casino rules or circumstances.
 
 ***•	Simplified Probability Estimation:*** The program estimates probabilities based on remaining cards. It doesn't consider card counting or complex mathematical strategies often employed in real blackjack games.
 
