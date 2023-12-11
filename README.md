@@ -92,33 +92,33 @@ These solutions collectively aim to create a functional and engaging representat
 
 ***· Provide explanation of calculations and algorithm implementation.***
 ***•	Hand Value Calculation:***
-o	The program calculates the value of a player's or dealer's hand by summing the individual card values.
-o	Face cards (Jack, Queen, King) are considered as 10.
-o	Aces can be counted as either 1 or 11, with the program deciding the optimal value based on the hand's total value.
+	The program calculates the value of a player's or dealer's hand by summing the individual card values.
+	Face cards (Jack, Queen, King) are considered as 10.
+	Aces can be counted as either 1 or 11, with the program deciding the optimal value based on the hand's total value.
 
 ***•	Basic Strategy Implementation:***
-o	The program incorporates a basic strategy table that guides the player's decisions based on their hand and the dealer's visible card.
-o	It determines whether to hit, stand, double down, or split based on the optimal strategy, optimizing the player's chances of winning.
+	The program incorporates a basic strategy table that guides the player's decisions based on their hand and the dealer's visible card.
+	It determines whether to hit, stand, double down, or split based on the optimal strategy, optimizing the player's chances of winning.
 
 ***•	Probability Estimation:***
-o	The program estimates probabilities by considering the cards dealt and the remaining cards in the deck.
-o	It estimates the likelihood of certain outcomes, such as the probability of the dealer's hand winning against the player's hand, based on the remaining cards.
+	The program estimates probabilities by considering the cards dealt and the remaining cards in the deck.
+	It estimates the likelihood of certain outcomes, such as the probability of the dealer's hand winning against the player's hand, based on the remaining cards.
 
 ***•	Card Distribution and Dealing:***
-o	The ‘Deck’ class manages the deck of cards and handles card distribution among players and the dealer.
-o	Cards are drawn randomly from the deck, simulating the dealing process in a casino.
+	The ‘Deck’ class manages the deck of cards and handles card distribution among players and the dealer.
+	Cards are drawn randomly from the deck, simulating the dealing process in a casino.
 
 ***•	Dealer's Fixed Strategy:***
-o	The dealer follows a fixed strategy of hitting on 16 or below and standing on 17 or higher.
-o	This strategy is implemented to replicate the typical behavior of a dealer in a blackjack game.
+	The dealer follows a fixed strategy of hitting on 16 or below and standing on 17 or higher.
+	This strategy is implemented to replicate the typical behavior of a dealer in a blackjack game.
 
 ***•	Looping and Decision-Making:***
-o	The program employs loops and conditional statements to facilitate player decisions and game flow.
+	The program employs loops and conditional statements to facilitate player decisions and game flow.
 
-o	It continuously loops through player turns, dealer turns, and game evaluation until the player decides to exit the game.
+	It continuously loops through player turns, dealer turns, and game evaluation until the player decides to exit the game.
 
 ***•	Error Handling and Validation:***
-o	The program includes error handling mechanisms to validate user inputs, ensuring proper interaction and preventing unexpected crashes due to invalid inputs.
+	The program includes error handling mechanisms to validate user inputs, ensuring proper interaction and preventing unexpected crashes due to invalid inputs.
 
 ***·What is the program objectives? Explain how your program is interacting with the user and its purpose.***
 The program's objective is to represent a Black Jack casino game using a single card deck. The player is given probability odds after the initial hand is shown. Each hit the user or dealer takes will update those odds. The program interacts with the user by displaying a welcome message during the start of the program. Then it will ask the user if they want to play, learn the rules, or quit the program. After the user inputs a response the program will operate accordingly. If they want to play the program will deal the starting hands. Another message is displayed before the user that prompts them to hit or stay. The prompting of the user to input a selection is how the user and program interact with each other during the game. 
