@@ -19,7 +19,7 @@ Published : 12/10/2023
 •	Program must also randomize or shuffle the deck before each game. 
 Project Details/Breakdown:
 
-Part 1: Game Initialization and Setup - completed by Dyson Lewis
+Part 1: Game Initialization and Setup - completed by Pedro Sandoval
 
 Responsibilities:
 •	Initialize the deck of cards.
@@ -33,7 +33,7 @@ Pseudo-code Sections:
 •	Initial probability calculations based on bets.
 •	Basic game state management.
 
-Part 2: Player Actions and Probabilities - completed by Pedro Sandoval
+Part 2: Player Actions and Probabilities - completed by Dyson Lewis
 Responsibilities:
 •	Implement player actions (hit, stand, double down, split).
 •	Calculate probabilities after each action based on the updated hand.
